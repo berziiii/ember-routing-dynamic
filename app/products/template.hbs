@@ -1,0 +1,6 @@
+<h3> Products: </h3>
+{{#each model as |product|}}
+  <h4>{{product.name}}</h4>
+  <h5>{{product.manufacturer}}</h5>
+  <h5>${{product.price}}</h5>
+{{/each}}

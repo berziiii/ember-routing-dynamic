@@ -15,6 +15,7 @@ Router.map(function () {
     this.route('boston');
     this.route('nyc');
   });
+  this.route('products');
 });
 
 export default Router;
